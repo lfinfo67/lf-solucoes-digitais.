@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - LF Soluções Digitais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 calc(33% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .service img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .service {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LF Soluções Digitais</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Serviços</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Formatação de Celulares</h3>
+                <img src="https://via.placeholder.com/300x200" alt="Formatação de Celulares">
+                <p>Venha formatar seu celular e deixá-lo como novo! <strong>R$ 80,00</strong></p>
+            </div>
+            <div class="service">
+                <h3>Download de Músicas</h3>
+                <img src="https://via.placeholder.com/300x200" alt="Download de Músicas">
+                <p>Venha baixar as músicas que você ama. Músicas ilimitadas que você escolher por apenas <strong>R$ 40,00</strong>.</p>
+            </div>
+            <div class="service">
+                <h3>Criação de Logos</h3>
+                <img src="https://via.placeholder.com/300x200" alt="Criação de Logos">
+                <p>Criação de logos personalizadas para empresas, eventos e uso pessoal. <strong>Valor indisponível</strong></p>
+                <p>O valor depende da sua necessidade.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 LF Soluções Digitais. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
